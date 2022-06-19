@@ -18,8 +18,8 @@ msg = EmailMessage()
 
 # Titulo do email
 msg ['Subject'] = 'Mensagem de titulo'
-msg ['From'] = 'projetoking160@gmail.com'
-msg['To'] = 'lukasdext160@hotmail.com'
+msg ['From'] = ''
+msg['To'] = ''
 msg.set_content('Mensagem dentro do email')
 
  # Enviar um e-mail
